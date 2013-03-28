@@ -1,0 +1,41 @@
+2013-03-28 10:16:12,856 Trac[env] INFO: -------------------------------- environment startup [Trac 1.0] --------------------------------
+2013-03-28 10:16:13,452 Trac[env] WARNING: base_url option not set in configuration, generated links may be incorrect
+2013-03-28 10:16:13,453 Trac[register] WARNING: EmailVerificationModule can't work because of missing email setup.
+2013-03-28 10:16:13,458 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-28 10:16:16,056 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-28 10:16:19,343 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-28 10:16:19,344 Trac[htfile] ERROR: acct_mgr: check_password() -- Can't locate password file ""
+2013-03-28 10:17:47,756 Trac[env] INFO: Reloading environment due to configuration change
+2013-03-28 10:17:47,793 Trac[env] INFO: -------------------------------- environment startup [Trac 1.0] --------------------------------
+2013-03-28 10:17:47,819 Trac[env] WARNING: base_url option not set in configuration, generated links may be incorrect
+2013-03-28 10:17:47,820 Trac[register] WARNING: EmailVerificationModule can't work because of missing email setup.
+2013-03-28 10:17:47,821 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-28 10:17:47,822 Trac[htfile] ERROR: acct_mgr: check_password() -- Can't locate password file ""
+2013-03-28 10:18:39,024 Trac[env] INFO: -------------------------------- environment startup [Trac 1.0] --------------------------------
+2013-03-28 10:18:39,601 Trac[env] WARNING: base_url option not set in configuration, generated links may be incorrect
+2013-03-28 10:18:39,602 Trac[register] WARNING: EmailVerificationModule can't work because of missing email setup.
+2013-03-28 10:18:39,604 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-28 10:18:39,685 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-28 10:18:43,607 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-28 10:19:08,556 Trac[env] INFO: Reloading environment due to configuration change
+2013-03-28 10:19:08,566 Trac[env] INFO: -------------------------------- environment startup [Trac 1.0] --------------------------------
+2013-03-28 10:19:08,594 Trac[env] WARNING: base_url option not set in configuration, generated links may be incorrect
+2013-03-28 10:19:08,596 Trac[register] WARNING: EmailVerificationModule can't work because of missing email setup.
+2013-03-28 10:19:08,598 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-28 10:19:12,318 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-28 10:19:12,338 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-28 10:19:12,339 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (No administration panels available)
+2013-03-28 10:19:14,788 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-28 10:19:17,998 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-28 10:19:18,063 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-28 10:19:30,548 Trac[env] INFO: -------------------------------- environment startup [Trac 1.0] --------------------------------
+2013-03-28 10:19:31,198 Trac[env] WARNING: base_url option not set in configuration, generated links may be incorrect
+2013-03-28 10:19:31,200 Trac[register] WARNING: EmailVerificationModule can't work because of missing email setup.
+2013-03-28 10:19:31,202 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-28 10:19:31,218 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-28 10:19:31,233 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-28 10:19:31,235 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (No administration panels available)
+2013-03-28 10:19:33,821 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-28 10:19:36,867 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-28 10:19:36,949 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-28 10:19:40,313 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
