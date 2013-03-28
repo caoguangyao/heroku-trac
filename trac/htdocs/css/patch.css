@@ -1,0 +1,71 @@
+body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+textarea {
+  font-family: monospace;
+}
+
+.sidebar-nav {
+    padding: 9px 0;
+}
+
+.nav li {
+    border-right: 0;
+    display: list-item;
+    padding: 0;
+    white-space: nowrap;
+}
+
+.navbar .nav > li > a {
+    color: #000000;
+}
+
+.navbar .nav .active > a, .navbar .nav .active > a:hover {
+    color: #333333;
+    background-color: #CCCCCC;
+}
+
+table.progress td {
+    background: #FEFFC7;
+}
+
+:link,
+:visited {
+    text-decoration: none;
+    color: #08C;
+    border-bottom: 0px;
+}
+
+#search {
+    clear: none;
+    margin: 0;
+}
+
+#search input {
+    font-size: 14px;
+}
+
+form label,
+form input {
+    display: inline-block;
+}
+
+#content {
+    position: inherit;
+}
+
+#edit #text {
+    min-height: 40em;
+}
+
+#topsearch label {
+    display: inherit;
+}
+
+ul.breadcrumb {
+  float: left;
+}
+
+
