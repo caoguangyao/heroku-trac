@@ -45,6 +45,8 @@ table.progress td {
 
 #search input {
     font-size: 14px;
+    margin-top:4px;
+    margin-right:4px;
 }
 
 form label,
