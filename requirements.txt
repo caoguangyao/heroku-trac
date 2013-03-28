@@ -4,4 +4,4 @@ TracAccountManager==0.4.3
 distribute==0.6.28
 gunicorn==0.17.2
 wsgiref==0.1.2
--e svn+http://trac-hacks.org/svn/tracwysiwygplugin/0.12#egg=Package
+-e git://github.com/caoguangyao/tracwysiwygplugin.git#egg=tracwysiwygplugin
