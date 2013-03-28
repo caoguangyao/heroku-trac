@@ -84,7 +84,7 @@ last_wikis = list(cursor)
                   class="${classes(first_last(idx, chrome.nav['mainnav']), active=item.active)}">${item.label}</li>
             </ul>
 
-            <form id="search" class="navbar-search pull-left" action="${href.search()}" method="get">
+            <form id="search" class="navbar-search pull-right" action="${href.search()}" method="get">
               <py:if test="not defined('trac_error_rendering') and 'SEARCH_VIEW' in perm">
                 <input type="text" class="search-query span2" placeholder="Quick search" id="proj-search" name="q" size="18" accesskey="f" value=""/>
               </py:if>
