@@ -1,1 +1,1 @@
-web: gunicorn tracwsgi:application 
+web: sh gunicorn_runner.sh 
