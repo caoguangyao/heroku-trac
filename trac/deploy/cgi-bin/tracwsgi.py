@@ -15,10 +15,10 @@
 #
 # Author: Noah Kantrowitz <noah@coderanger.net>
 import os
-
+APP_ROOT = os.path.dirname(__file__)
 def application(environ, start_request):
     if not 'trac.env_parent_dir' in environ:
-        environ.setdefault('trac.env_path', '/Users/caoguangyao/heroku-trac/trac')
+        environ.setdefault('trac.env_path', '../../../trac')
     if 'PYTHON_EGG_CACHE' in environ:                                           
         os.environ['PYTHON_EGG_CACHE'] = environ['PYTHON_EGG_CACHE']
     elif 'trac.env_path' in environ:
