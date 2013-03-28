@@ -2,3 +2,8 @@
 venv
 *.pyc
 *.db
+MyEnv.pybundle
+
+tracwysiwy/0.12
+
+.requirements.txt.swo
