@@ -60,17 +60,15 @@ last_wikis = list(cursor)
     <py:match path="body" once="true" buffer="false">
     <body class="off-canvas">
         <nav class="top-bar">
-        <!--    <div class="attached">-->
             <ul>
                 <li class="name" onclick="void(0);">
-                <span><a href="${req.base_url}">${project.name}</a>
-                    <!--                  <a href="#" class="toggle-nav"></a>-->
-                </span>
+                <h1><a href="${req.base_url}">${project.name}</a>
+                </h1>
                 </li>
                 <li class="toggle-topbar"><a href="#"></a></li>
             </ul>
             <section>
-            <ul class="left">
+            <ul class="right">
                 <li class="has-dropdown"
                 py:if="chrome.nav['metanav']">
                 <a href="#">${user_menu_text}</a>
@@ -82,7 +80,7 @@ last_wikis = list(cursor)
                 </li>
             </ul>  
 
-            <ul class="left">
+            <ul class="right">
                 <li class="has-dropdown">
                 <a href="#">Actions</a>
                 <ul class="dropdown">
@@ -92,7 +90,7 @@ last_wikis = list(cursor)
                 </li>
             </ul>
 
-            <ul class="left">
+            <ul class="right">
                 <li class="has-dropdown">
                 <a href="#">Tickets</a>
                 <ul class="dropdown">
@@ -103,7 +101,7 @@ last_wikis = list(cursor)
                 </li>
             </ul>
 
-            <ul class="left">
+            <ul class="right">
                 <li class="has-dropdown">
                 <a href="#">Pages</a>
                 <ul class="dropdown">
@@ -126,7 +124,7 @@ last_wikis = list(cursor)
                 </li>  
             </ul>
 
-            <ul class="right" py:if="chrome.nav['mainnav']">
+            <ul class="left" py:if="chrome.nav['mainnav']">
                 <li class="mainnav" py:for="idx, item in enumerate(chrome.nav['mainnav'])">
                 ${item.label}</li>
             </ul>
