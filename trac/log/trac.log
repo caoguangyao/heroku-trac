@@ -3,3 +3,27 @@
 2013-03-29 12:01:44,553 Trac[register] WARNING: EmailVerificationModule can't work because of missing email setup.
 2013-03-29 12:01:44,558 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
 2013-03-29 12:02:05,055 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-29 12:07:10,557 Trac[env] INFO: -------------------------------- environment startup [Trac 1.0] --------------------------------
+2013-03-29 12:07:11,133 Trac[env] WARNING: base_url option not set in configuration, generated links may be incorrect
+2013-03-29 12:07:11,135 Trac[register] WARNING: EmailVerificationModule can't work because of missing email setup.
+2013-03-29 12:07:11,140 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-29 12:07:18,040 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-29 12:07:24,282 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-29 12:07:24,366 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-29 12:07:36,664 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-29 12:07:40,456 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-29 12:07:42,479 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-29 12:07:46,001 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-29 12:07:53,616 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-29 12:07:57,608 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-29 12:08:01,217 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-29 12:08:29,032 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-29 12:08:33,783 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-29 12:08:37,535 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-29 12:08:55,499 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-29 12:10:35,922 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-29 12:10:39,892 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-29 12:10:43,957 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-29 12:10:45,203 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-29 12:10:56,711 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-29 12:10:56,756 Trac[api] WARNING: Unable to find repository '(default)' for synchronization

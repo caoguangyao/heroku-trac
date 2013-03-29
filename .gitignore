@@ -5,5 +5,4 @@ venv
 MyEnv.pybundle
 tracwysiwy/0.12
 .requirements.txt.swo
-trac/db/trac.db
 
