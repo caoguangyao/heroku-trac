@@ -1,0 +1,5 @@
+2013-03-29 12:01:43,442 Trac[env] INFO: -------------------------------- environment startup [Trac 1.0] --------------------------------
+2013-03-29 12:01:44,552 Trac[env] WARNING: base_url option not set in configuration, generated links may be incorrect
+2013-03-29 12:01:44,553 Trac[register] WARNING: EmailVerificationModule can't work because of missing email setup.
+2013-03-29 12:01:44,558 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-29 12:02:05,055 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
