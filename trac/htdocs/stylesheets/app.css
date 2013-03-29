@@ -43,7 +43,7 @@
 /* hover for the action titles in the actions bar */
 .top-bar ul > li.has-dropdown a:hover { background: #eee; }
 .top-bar ul > li.has-dropdown .dropdown {
-   background: gray;
+/*   background: gray;*/
    left: 0;
    margin: 0;
    padding: 9px 0 0 0;
@@ -55,7 +55,7 @@
 /* dropdown of the top level action item */
 .top-bar ul > li.has-dropdown .dropdown li a:hover { background: #eee; }
 .top-bar ul > li.has-dropdown .dropdown li {
-   background: gray;
+/*   background: gray;*/
    line-height: 1;
    min-width: 100%;
    padding-bottom: 5px;

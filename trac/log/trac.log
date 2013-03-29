@@ -292,3 +292,199 @@ TemplateSyntaxError: mismatched tag: line 128, column 14 (../../../trac/template
 2013-03-28 13:17:25,722 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
 2013-03-28 13:17:26,078 Trac[chrome] WARNING: File js/jquery.min.js not found in any of ['../../../trac/htdocs']
 2013-03-28 13:17:26,078 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (File js/jquery.min.js not found)
+2013-03-29 10:09:48,233 Trac[env] INFO: -------------------------------- environment startup [Trac 1.0] --------------------------------
+2013-03-29 10:09:49,231 Trac[env] WARNING: base_url option not set in configuration, generated links may be incorrect
+2013-03-29 10:09:49,232 Trac[register] WARNING: EmailVerificationModule can't work because of missing email setup.
+2013-03-29 10:09:49,238 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-29 10:09:49,682 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-29 10:09:50,870 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-29 10:19:07,294 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-29 10:19:45,251 Trac[env] INFO: -------------------------------- environment startup [Trac 1.0] --------------------------------
+2013-03-29 10:19:46,017 Trac[env] WARNING: base_url option not set in configuration, generated links may be incorrect
+2013-03-29 10:19:46,018 Trac[register] WARNING: EmailVerificationModule can't work because of missing email setup.
+2013-03-29 10:19:46,024 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-29 10:20:28,086 Trac[env] INFO: -------------------------------- environment startup [Trac 1.0] --------------------------------
+2013-03-29 10:20:28,179 Trac[env] WARNING: base_url option not set in configuration, generated links may be incorrect
+2013-03-29 10:20:28,181 Trac[register] WARNING: EmailVerificationModule can't work because of missing email setup.
+2013-03-29 10:20:28,186 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-29 10:22:00,775 Trac[env] INFO: -------------------------------- environment startup [Trac 1.0] --------------------------------
+2013-03-29 10:22:01,497 Trac[env] WARNING: base_url option not set in configuration, generated links may be incorrect
+2013-03-29 10:22:01,498 Trac[register] WARNING: EmailVerificationModule can't work because of missing email setup.
+2013-03-29 10:22:01,503 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-29 10:24:15,960 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-29 10:29:52,826 Trac[env] INFO: -------------------------------- environment startup [Trac 1.0] --------------------------------
+2013-03-29 10:29:53,592 Trac[env] WARNING: base_url option not set in configuration, generated links may be incorrect
+2013-03-29 10:29:53,593 Trac[register] WARNING: EmailVerificationModule can't work because of missing email setup.
+2013-03-29 10:29:53,598 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-29 10:29:53,829 Trac[main] ERROR: Internal Server Error: 
+Traceback (most recent call last):
+  File "/Users/caoguangyao/heroku-trac/venv/lib/python2.7/site-packages/trac/web/main.py", line 497, in _dispatch_request
+    dispatcher.dispatch(req)
+  File "/Users/caoguangyao/heroku-trac/venv/lib/python2.7/site-packages/trac/web/main.py", line 233, in dispatch
+    content_type)
+  File "/Users/caoguangyao/heroku-trac/venv/lib/python2.7/site-packages/trac/web/chrome.py", line 1000, in render_template
+    encoding='utf-8')
+  File "/Users/caoguangyao/heroku-trac/venv/lib/python2.7/site-packages/genshi/core.py", line 184, in render
+    return encode(generator, method=method, encoding=encoding, out=out)
+  File "/Users/caoguangyao/heroku-trac/venv/lib/python2.7/site-packages/genshi/output.py", line 58, in encode
+    for chunk in iterator:
+  File "/Users/caoguangyao/heroku-trac/venv/lib/python2.7/site-packages/genshi/output.py", line 350, in __call__
+    for kind, data, pos in stream:
+  File "/Users/caoguangyao/heroku-trac/venv/lib/python2.7/site-packages/genshi/output.py", line 829, in __call__
+    for kind, data, pos in stream:
+  File "/Users/caoguangyao/heroku-trac/venv/lib/python2.7/site-packages/genshi/output.py", line 669, in __call__
+    for kind, data, pos in stream:
+  File "/Users/caoguangyao/heroku-trac/venv/lib/python2.7/site-packages/genshi/output.py", line 774, in __call__
+    for kind, data, pos in chain(stream, [(None, None, None)]):
+  File "/Users/caoguangyao/heroku-trac/venv/lib/python2.7/site-packages/genshi/output.py", line 594, in __call__
+    for ev in stream:
+  File "/Users/caoguangyao/heroku-trac/venv/lib/python2.7/site-packages/genshi/core.py", line 289, in _ensure
+    for event in stream:
+  File "/Users/caoguangyao/heroku-trac/venv/lib/python2.7/site-packages/genshi/core.py", line 289, in _ensure
+    for event in stream:
+  File "/Users/caoguangyao/heroku-trac/venv/lib/python2.7/site-packages/trac/web/chrome.py", line 1137, in _strip_accesskeys
+    for kind, data, pos in stream:
+  File "/Users/caoguangyao/heroku-trac/venv/lib/python2.7/site-packages/genshi/core.py", line 289, in _ensure
+    for event in stream:
+  File "/Users/caoguangyao/heroku-trac/venv/lib/python2.7/site-packages/trac/web/chrome.py", line 1126, in _generate
+    for kind, data, pos in stream:
+  File "/Users/caoguangyao/heroku-trac/venv/lib/python2.7/site-packages/genshi/template/base.py", line 630, in _include
+    cls=cls or self.__class__)
+  File "/Users/caoguangyao/heroku-trac/venv/lib/python2.7/site-packages/genshi/template/loader.py", line 236, in load
+    filename, encoding=encoding)
+  File "/Users/caoguangyao/heroku-trac/venv/lib/python2.7/site-packages/genshi/template/loader.py", line 274, in _instantiate
+    allow_exec=self.allow_exec)
+  File "/Users/caoguangyao/heroku-trac/venv/lib/python2.7/site-packages/genshi/template/markup.py", line 67, in __init__
+    allow_exec=allow_exec)
+  File "/Users/caoguangyao/heroku-trac/venv/lib/python2.7/site-packages/genshi/template/base.py", line 421, in __init__
+    raise TemplateSyntaxError(e.msg, self.filepath, e.lineno, e.offset)
+TemplateSyntaxError: mismatched tag: line 72, column 6 (../../../trac/templates/theme.html, line 72)
+2013-03-29 10:29:54,287 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-29 10:29:54,292 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (No handler matched request to /favicon.ico)
+2013-03-29 10:30:36,942 Trac[env] INFO: -------------------------------- environment startup [Trac 1.0] --------------------------------
+2013-03-29 10:30:37,036 Trac[env] WARNING: base_url option not set in configuration, generated links may be incorrect
+2013-03-29 10:30:37,037 Trac[register] WARNING: EmailVerificationModule can't work because of missing email setup.
+2013-03-29 10:30:37,042 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-29 10:31:18,522 Trac[env] INFO: -------------------------------- environment startup [Trac 1.0] --------------------------------
+2013-03-29 10:31:18,614 Trac[env] WARNING: base_url option not set in configuration, generated links may be incorrect
+2013-03-29 10:31:18,615 Trac[register] WARNING: EmailVerificationModule can't work because of missing email setup.
+2013-03-29 10:31:18,620 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-29 10:31:52,713 Trac[env] INFO: -------------------------------- environment startup [Trac 1.0] --------------------------------
+2013-03-29 10:31:52,810 Trac[env] WARNING: base_url option not set in configuration, generated links may be incorrect
+2013-03-29 10:31:52,811 Trac[register] WARNING: EmailVerificationModule can't work because of missing email setup.
+2013-03-29 10:31:52,815 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-29 10:37:54,699 Trac[env] INFO: -------------------------------- environment startup [Trac 1.0] --------------------------------
+2013-03-29 10:37:55,643 Trac[env] WARNING: base_url option not set in configuration, generated links may be incorrect
+2013-03-29 10:37:55,645 Trac[register] WARNING: EmailVerificationModule can't work because of missing email setup.
+2013-03-29 10:37:55,653 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-29 10:39:22,093 Trac[env] INFO: -------------------------------- environment startup [Trac 1.0] --------------------------------
+2013-03-29 10:39:22,187 Trac[env] WARNING: base_url option not set in configuration, generated links may be incorrect
+2013-03-29 10:39:22,188 Trac[register] WARNING: EmailVerificationModule can't work because of missing email setup.
+2013-03-29 10:39:22,193 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-29 10:39:53,100 Trac[env] INFO: -------------------------------- environment startup [Trac 1.0] --------------------------------
+2013-03-29 10:39:53,199 Trac[env] WARNING: base_url option not set in configuration, generated links may be incorrect
+2013-03-29 10:39:53,200 Trac[register] WARNING: EmailVerificationModule can't work because of missing email setup.
+2013-03-29 10:39:53,205 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-29 10:40:28,949 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-29 10:41:20,740 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-29 10:41:29,484 Trac[env] INFO: -------------------------------- environment startup [Trac 1.0] --------------------------------
+2013-03-29 10:41:29,571 Trac[env] WARNING: base_url option not set in configuration, generated links may be incorrect
+2013-03-29 10:41:29,573 Trac[register] WARNING: EmailVerificationModule can't work because of missing email setup.
+2013-03-29 10:41:29,577 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-29 10:41:34,062 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-29 10:45:10,704 Trac[env] INFO: -------------------------------- environment startup [Trac 1.0] --------------------------------
+2013-03-29 10:45:11,415 Trac[env] WARNING: base_url option not set in configuration, generated links may be incorrect
+2013-03-29 10:45:11,416 Trac[register] WARNING: EmailVerificationModule can't work because of missing email setup.
+2013-03-29 10:45:11,421 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-29 10:49:43,213 Trac[env] INFO: -------------------------------- environment startup [Trac 1.0] --------------------------------
+2013-03-29 10:49:43,325 Trac[env] WARNING: base_url option not set in configuration, generated links may be incorrect
+2013-03-29 10:49:43,326 Trac[register] WARNING: EmailVerificationModule can't work because of missing email setup.
+2013-03-29 10:49:43,331 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-29 10:58:21,337 Trac[env] INFO: -------------------------------- environment startup [Trac 1.0] --------------------------------
+2013-03-29 10:58:21,487 Trac[env] WARNING: base_url option not set in configuration, generated links may be incorrect
+2013-03-29 10:58:21,488 Trac[register] WARNING: EmailVerificationModule can't work because of missing email setup.
+2013-03-29 10:58:21,493 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-29 10:59:27,640 Trac[env] INFO: -------------------------------- environment startup [Trac 1.0] --------------------------------
+2013-03-29 10:59:27,738 Trac[env] WARNING: base_url option not set in configuration, generated links may be incorrect
+2013-03-29 10:59:27,740 Trac[register] WARNING: EmailVerificationModule can't work because of missing email setup.
+2013-03-29 10:59:27,744 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-29 10:59:29,166 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-29 11:01:01,944 Trac[env] INFO: -------------------------------- environment startup [Trac 1.0] --------------------------------
+2013-03-29 11:01:02,039 Trac[env] WARNING: base_url option not set in configuration, generated links may be incorrect
+2013-03-29 11:01:02,040 Trac[register] WARNING: EmailVerificationModule can't work because of missing email setup.
+2013-03-29 11:01:02,045 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-29 11:02:01,676 Trac[env] INFO: -------------------------------- environment startup [Trac 1.0] --------------------------------
+2013-03-29 11:02:01,767 Trac[env] WARNING: base_url option not set in configuration, generated links may be incorrect
+2013-03-29 11:02:01,768 Trac[register] WARNING: EmailVerificationModule can't work because of missing email setup.
+2013-03-29 11:02:01,773 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-29 11:02:06,693 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-29 11:02:07,785 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-29 11:30:37,660 Trac[env] INFO: -------------------------------- environment startup [Trac 1.0] --------------------------------
+2013-03-29 11:30:38,292 Trac[env] WARNING: base_url option not set in configuration, generated links may be incorrect
+2013-03-29 11:30:38,294 Trac[register] WARNING: EmailVerificationModule can't work because of missing email setup.
+2013-03-29 11:30:38,299 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-29 11:33:19,285 Trac[env] INFO: -------------------------------- environment startup [Trac 1.0] --------------------------------
+2013-03-29 11:33:19,961 Trac[env] WARNING: base_url option not set in configuration, generated links may be incorrect
+2013-03-29 11:33:19,962 Trac[register] WARNING: EmailVerificationModule can't work because of missing email setup.
+2013-03-29 11:33:19,968 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-29 11:38:54,279 Trac[env] INFO: -------------------------------- environment startup [Trac 1.0] --------------------------------
+2013-03-29 11:38:54,977 Trac[env] WARNING: base_url option not set in configuration, generated links may be incorrect
+2013-03-29 11:38:54,978 Trac[register] WARNING: EmailVerificationModule can't work because of missing email setup.
+2013-03-29 11:38:54,983 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-29 11:39:01,334 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-29 11:39:49,154 Trac[env] INFO: -------------------------------- environment startup [Trac 1.0] --------------------------------
+2013-03-29 11:39:49,247 Trac[env] WARNING: base_url option not set in configuration, generated links may be incorrect
+2013-03-29 11:39:49,249 Trac[register] WARNING: EmailVerificationModule can't work because of missing email setup.
+2013-03-29 11:39:49,254 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-29 11:39:49,414 Trac[main] ERROR: Internal Server Error: 
+Traceback (most recent call last):
+  File "/Users/caoguangyao/heroku-trac/venv/lib/python2.7/site-packages/trac/web/main.py", line 497, in _dispatch_request
+    dispatcher.dispatch(req)
+  File "/Users/caoguangyao/heroku-trac/venv/lib/python2.7/site-packages/trac/web/main.py", line 233, in dispatch
+    content_type)
+  File "/Users/caoguangyao/heroku-trac/venv/lib/python2.7/site-packages/trac/web/chrome.py", line 1000, in render_template
+    encoding='utf-8')
+  File "/Users/caoguangyao/heroku-trac/venv/lib/python2.7/site-packages/genshi/core.py", line 184, in render
+    return encode(generator, method=method, encoding=encoding, out=out)
+  File "/Users/caoguangyao/heroku-trac/venv/lib/python2.7/site-packages/genshi/output.py", line 58, in encode
+    for chunk in iterator:
+  File "/Users/caoguangyao/heroku-trac/venv/lib/python2.7/site-packages/genshi/output.py", line 350, in __call__
+    for kind, data, pos in stream:
+  File "/Users/caoguangyao/heroku-trac/venv/lib/python2.7/site-packages/genshi/output.py", line 829, in __call__
+    for kind, data, pos in stream:
+  File "/Users/caoguangyao/heroku-trac/venv/lib/python2.7/site-packages/genshi/output.py", line 669, in __call__
+    for kind, data, pos in stream:
+  File "/Users/caoguangyao/heroku-trac/venv/lib/python2.7/site-packages/genshi/output.py", line 774, in __call__
+    for kind, data, pos in chain(stream, [(None, None, None)]):
+  File "/Users/caoguangyao/heroku-trac/venv/lib/python2.7/site-packages/genshi/output.py", line 594, in __call__
+    for ev in stream:
+  File "/Users/caoguangyao/heroku-trac/venv/lib/python2.7/site-packages/genshi/core.py", line 289, in _ensure
+    for event in stream:
+  File "/Users/caoguangyao/heroku-trac/venv/lib/python2.7/site-packages/genshi/core.py", line 289, in _ensure
+    for event in stream:
+  File "/Users/caoguangyao/heroku-trac/venv/lib/python2.7/site-packages/trac/web/chrome.py", line 1137, in _strip_accesskeys
+    for kind, data, pos in stream:
+  File "/Users/caoguangyao/heroku-trac/venv/lib/python2.7/site-packages/genshi/core.py", line 289, in _ensure
+    for event in stream:
+  File "/Users/caoguangyao/heroku-trac/venv/lib/python2.7/site-packages/trac/web/chrome.py", line 1126, in _generate
+    for kind, data, pos in stream:
+  File "/Users/caoguangyao/heroku-trac/venv/lib/python2.7/site-packages/genshi/template/base.py", line 630, in _include
+    cls=cls or self.__class__)
+  File "/Users/caoguangyao/heroku-trac/venv/lib/python2.7/site-packages/genshi/template/loader.py", line 236, in load
+    filename, encoding=encoding)
+  File "/Users/caoguangyao/heroku-trac/venv/lib/python2.7/site-packages/genshi/template/loader.py", line 274, in _instantiate
+    allow_exec=self.allow_exec)
+  File "/Users/caoguangyao/heroku-trac/venv/lib/python2.7/site-packages/genshi/template/markup.py", line 67, in __init__
+    allow_exec=allow_exec)
+  File "/Users/caoguangyao/heroku-trac/venv/lib/python2.7/site-packages/genshi/template/base.py", line 419, in __init__
+    self._stream = self._parse(source, encoding)
+  File "/Users/caoguangyao/heroku-trac/venv/lib/python2.7/site-packages/genshi/template/markup.py", line 99, in _parse
+    pos[2] + (err.offset or 0))
+TemplateSyntaxError: expected an indented block (, line 10) (../../../trac/templates/theme.html, line 10)
+2013-03-29 11:39:49,905 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-29 11:39:49,909 Trac[main] WARNING: [127.0.0.1] HTTPNotFound: 404 Not Found (No handler matched request to /favicon.ico)
+2013-03-29 11:40:35,834 Trac[env] INFO: -------------------------------- environment startup [Trac 1.0] --------------------------------
+2013-03-29 11:40:35,930 Trac[env] WARNING: base_url option not set in configuration, generated links may be incorrect
+2013-03-29 11:40:35,931 Trac[register] WARNING: EmailVerificationModule can't work because of missing email setup.
+2013-03-29 11:40:35,936 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
+2013-03-29 11:41:30,109 Trac[api] WARNING: Unable to find repository '(default)' for synchronization
