@@ -1,7 +1,7 @@
 Genshi==0.7
-Trac==1.0
+Trac==1.0.1
+mysql-python
 TracAccountManager==0.4.3
 distribute==0.6.28
 gunicorn==0.17.2
-wsgiref==0.1.2
 -e git://github.com/caoguangyao/tracwysiwygplugin.git#egg=tracwysiwygplugin
